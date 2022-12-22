@@ -23,12 +23,12 @@ const changeMark=()=>{
 //checking for sound
 let soundbtn=document.getElementById("soundImg");
 soundbtn.addEventListener('click',()=>{
-    if(soundbtn.innerHTML==='<img src="/img/mute-2-xl.png" alt="">'){
-    soundbtn.innerHTML='<li id="soundImg"><img src="/img/volume-up-4-xl.png" alt=""></li></ul>';
+    if(soundbtn.innerHTML==='<img src="/mute-2-xl.png" alt="">'){
+    soundbtn.innerHTML='<li id="soundImg"><img src="/volume-up-4-xl.png" alt=""></li></ul>';
     sounds=true;
     }
     else{
-    soundbtn.innerHTML='<img src="/img/mute-2-xl.png" alt="">'
+    soundbtn.innerHTML='<img src="/mute-2-xl.png" alt="">'
     sounds=false;
     }
 
